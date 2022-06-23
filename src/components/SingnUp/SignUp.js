@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './SignUp.css';
 const SignUp = () => {
     return (
@@ -32,12 +33,27 @@ const SignUp = () => {
                     
                     <input className='btn-submit' type="submit" value="Sign Up" />
 
-                        <p>Already have an account? <span>Sign In</span></p>
+                        <NavLink to ='signin'>
+                            <p>Already have an account? <span>Sign In</span></p>
+                        </NavLink>
                         </div>
 
 
                 </form>
             </div>
+
+            <div className="otherPages">
+                 <div className="studentDpage">
+                    <NavLink to='student-dashboard'>
+                        <p>click to see the student dashboard page</p>
+                </NavLink>
+            </div>
+            <div className="studentDpage">
+                    ,<NavLink to ='employee'>
+                        <p>click to see the Employee page</p>
+                    </NavLink>
+            </div>
+           </div>
         </div>
     );
 };
