@@ -1,0 +1,83 @@
+
+
+.header{
+background-color: rgb(144, 30, 30);
+}
+nav{
+    padding:1rem;
+}
+
+nav h2{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.content{
+    background-image:url('../../images/back.jpeg');
+    height:90vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center
+
+}
+
+.inputField input{
+    width:200px;
+    height:30px;
+    margin:5px;
+    border-radius: 2rem;
+    border:1px solid gray;
+    padding:0.2rem 1rem;
+    outline:none;
+
+    
+}
+
+.contentCard{
+    
+    height:400px;
+    width:300px;
+    border-radius:.5rem;
+    background-color:white;
+    text-align:center;
+
+
+}
+
+.signPage{
+    position:relative
+}
+
+.contentCard{
+    position:absolute;
+
+    top:20%;
+    left:40%;
+}
+.contentCard h3{
+   color:#a01c18;
+   padding:1rem;
+
+}
+.btn-submit{
+    background-color:#a01c18;
+    color:white;
+    border:none;
+    padding:.8rem 6rem;
+    border-radius:2rem;
+    margin: 1rem ;
+    cursor:pointer;
+    font-size:1rem;
+
+    
+}
+p span{
+
+    color:#a01c18;
+    font-weight: bold;
+   
+    
+}
