@@ -1,9 +1,11 @@
 
 
-#test assignment from Tunicalabs Media
+# test assignment from Tunicalabs Media
+
+## Not Responsive
 
 
-This site was built using [Live view](https://dapper-lily-6b039f.netlify.app/).
+Clik to view [Live view](https://dapper-lily-6b039f.netlify.app/).
 
 ![This is an image](https://i.ibb.co/ZLZbCCS/a40a4f0bab49654989568d660916cb3.png)
 
