@@ -8,7 +8,9 @@ const SignUp = () => {
             <div className="header" >
                 <div className="container">
                     <nav >
-                        <h2>TUNICALABS MEDIA</h2>
+                        <NavLink to='/'>
+                            <h2>TUNICALABS MEDIA</h2>
+                        </NavLink>
                     </nav>
                 </div>
             </div>
