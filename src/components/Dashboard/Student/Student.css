@@ -1,8 +1,11 @@
-.studentContent{
-    display:grid;
+.studentContent {
+    display: grid;
     grid-template-columns: 1fr 4fr;
-    gap:1rem;
-    padding: 2rem 4rem;
+    gap: 1rem;
+    box-shadow: 3;
+    box-shadow: -2px -1px 19px #525252;
+    padding: 2rem 3rem;
+    margin: 2rem 5rem;
 }
 .studentContent .left{
    border-right: 1px solid black;
