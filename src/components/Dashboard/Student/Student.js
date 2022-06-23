@@ -10,6 +10,7 @@ import { HiDownload } from 'react-icons/hi';
 import { IoIosNotifications } from 'react-icons/io';
 import { IoIosArrowDown } from 'react-icons/io';
 import user from '../../../images/user.jpeg'
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -19,9 +20,9 @@ const Student = () => {
             <div className="header" >
                 <div className="container">
                     <nav className="navlogo">
-                        <div className="logo">
+                        <NavLink to='/'>
                             <h2>TUNICALABS MEDIA</h2>
-                        </div>
+                        </NavLink>
                         <div className="info">
                             <span>
                                 <IoIosNotifications style={{ color:'white', fontSize:'24px'}} />

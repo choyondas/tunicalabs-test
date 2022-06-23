@@ -8,7 +8,9 @@ const SignIn = () => {
             <div className="header" >
                 <div className="container">
                     <nav >
-                        <h2>TUNICALABS MEDIA</h2>
+                        <NavLink to='/'>
+                            <h2>TUNICALABS MEDIA</h2>
+                        </NavLink>
                     </nav>
                 </div>
             </div>
@@ -41,12 +43,16 @@ const SignIn = () => {
                 </form>
             </div>
 
-             <div className="otherPages">
+              <div className="otherPages">
                  <div className="studentDpage">
-                <p>click to see the student dashboard page</p>
+                    <NavLink to='/student-dashboard'>
+                        <p>Go dashboard page</p>
+                </NavLink>
             </div>
             <div className="studentDpage">
-                <p>click to see the Employee page</p>
+                    ,<NavLink to ='/employee'>
+                        <p>Go Employee page</p>
+                    </NavLink>
             </div>
            </div>
         </div>

@@ -114,14 +114,14 @@ justify-content:space-around
     justify-content:space-between;
 }
 
-tbody tr:nth-child(even){
+.studentContent tbody tr:nth-child(even){
     background-color:rgb(255, 198, 194);
 }
-tbody tr:nth-child(odd){
+.studentContent tbody tr:nth-child(odd){
     background-color:white;
 }
 
-.table>:not(caption)>*>* {
+.studentContent.table>:not(caption)>*>* {
     padding: 0.5rem 0.5rem;
     box-shadow: none !important;
     border-bottom-width: 0 !important;

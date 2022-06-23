@@ -1,0 +1,44 @@
+.inputS {
+    display:flex;
+    
+}
+.inputS input {
+    margin-left:100px;
+    padding-left:20px;
+    outline:none;
+
+}
+
+.inputE input{
+    margin-left: 0px;
+        padding: 0.3rem 1.8rem;
+}
+.inputE Table{
+   border:0px;
+   
+}
+.inputE td {
+   border:0px;
+   
+}
+.inputE tr {
+   border:0px;
+   background-color:white;
+   
+   
+}
+
+.inputE tbody tr:nth-child(even) {
+    background-color: white
+}
+
+.inputE tbody tr:nth-child(odd) {
+    background-color: #ffffff !important;
+}
+
+
+
+
+select{
+        padding: 0.4rem 4rem;
+}
