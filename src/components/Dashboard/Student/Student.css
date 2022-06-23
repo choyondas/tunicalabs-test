@@ -17,6 +17,7 @@
 }
 .leftHead h4{
     font-weight: 500;
+    
 }
 
 .viewS, .addS{
@@ -24,6 +25,7 @@
     justify-content: center;
     gap:1rem;
     cursor: pointer;
+    
     
     
     
@@ -37,6 +39,7 @@
 .viewS h4, .addS h4{
   
     font-weight:400;
+    font-size: 16px;
     
 }
 .viewS:hover{
@@ -52,21 +55,76 @@
     color:#b52b2b;
     font-weight:500;
 }
-.studentContent .right input{
-    height:1.5rem;
-    width:6rem;
-    margin-right:2rem;padding:.2rem 1rem;
-    outline:0;
-    background-color:rgb(213, 213, 213);
-    border: 1px solid rgb(187, 187, 187);
+
+.studentContent .right {
+   width: 100%;
 }
+.sInput{
+display:flex;
+width:100%;
+justify-content:space-around
+
+
+}
+.studentContent .right .sfield{
+
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 2rem;
+        width: 8rem;
+        margin-right: 2rem;
+        padding: 0.4rem 1rem;
+        outline: 0;
+        background-color: rgb(213, 213, 213);
+        border: 1px solid rgb(187, 187, 187);
+        border-radius:4px;
+}
+.studentContent .right .sfield p{
+
+    font-size:14px;
+    color:rgb(52, 52, 52);
+    margin:0;
+    
+}
+.studentContent .right .sfield .arrow{
+
+    border-left: 1px solid;
+    
+}
+
+
 .studentContent .right .btn-search{
     width:130px;
    
     text-align:center;
-    margin-top:10px;
-    height: 2.1rem ;
-    background-color:#b52b2b;
+    
+    height: 2rem ;
+    background-color:#af2c2c;
     color:white;
     border: none;
+}
+
+
+.modify {
+    display: flex;
+    justify-content:space-between;
+}
+
+tbody tr:nth-child(even){
+    background-color:rgb(255, 198, 194);
+}
+tbody tr:nth-child(odd){
+    background-color:white;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.5rem 0.5rem;
+    box-shadow: none !important;
+    border-bottom-width: 0 !important;
+    
+}
+table{
+    border-bottom: 2px solid black;
+    
 }
