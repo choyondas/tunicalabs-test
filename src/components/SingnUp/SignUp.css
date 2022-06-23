@@ -38,7 +38,7 @@ nav h2{
 
 .contentCard{
     
-    height:400px;
+    height:350px;
     width:300px;
     border-radius:.5rem;
     background-color:white;
@@ -78,6 +78,12 @@ p span{
 
     color:#a01c18;
     font-weight: bold;
+    cursor:pointer;
    
     
+}
+
+input {
+    accent-color: #a01c18;
+    cursor: pointer;
 }

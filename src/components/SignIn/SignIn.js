@@ -1,9 +1,9 @@
 import React from 'react';
-import './SignUp.css';
-const SignUp = () => {
-    return (
+import './SignIn.css';
 
-        <div className="signPage" >
+const SignIn = () => {
+    return (
+         <div className="signPage" >
             <div className="header" >
                 <div className="container">
                     <nav >
@@ -14,13 +14,12 @@ const SignUp = () => {
             <div className="content">
                 <form action="">
                     <div className="contentCard">
-                    <h3>Sign Up Now</h3>
+                    <h3>Sign In Now</h3>
                         <div className="inputField">
                             <input type="email" name="" id="" placeholder="Your Email*" />
                             <br />
                             <input type="password" name="" id="" placeholder="Your Password*" />
-                            <br />
-                    <input type="password" name="" id="" placeholder="Confirm Password*" />
+                           
                     </div>
                         <div className="check">
                              <input type="checkbox"/>
@@ -32,7 +31,7 @@ const SignUp = () => {
                     
                     <input className='btn-submit' type="submit" value="Sign Up" />
 
-                        <p>Already have an account? <span>Sign In</span></p>
+                        <p>Don't have an account? <a href=""><span>Sign Up</span></a></p>
                         </div>
 
 
@@ -42,4 +41,4 @@ const SignUp = () => {
     );
 };
 
-export default SignUp;
+export default SignIn;
