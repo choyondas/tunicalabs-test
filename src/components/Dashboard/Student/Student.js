@@ -4,14 +4,38 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import { FaUsers } from 'react-icons/fa';
 import { HiUserAdd } from 'react-icons/hi';
 import Table from 'react-bootstrap/Table';
+import { MdKeyboardArrowLeft } from 'react-icons/md';
+import { MdKeyboardArrowRight } from 'react-icons/md';
+import { HiDownload } from 'react-icons/hi';
+import { IoIosNotifications } from 'react-icons/io';
+import { IoIosArrowDown } from 'react-icons/io';
+import user from '../../../images/user.jpeg'
+
+
 
 const Student = () => {
     return (
         <div>
             <div className="header" >
                 <div className="container">
-                    <nav >
-                        <h2>TUNICALABS MEDIA</h2>
+                    <nav className="navlogo">
+                        <div className="logo">
+                            <h2>TUNICALABS MEDIA</h2>
+                        </div>
+                        <div className="info">
+                            <span>
+                                <IoIosNotifications style={{ color:'white', fontSize:'24px'}} />
+
+                            </span>
+                            <div className="img">
+                                <img src={user}alt="" />
+                            </div>
+                            <p>Choyon</p>
+                            
+                                <IoIosArrowDown/>
+                            
+
+                        </div>
                     </nav>
                 </div>
             </div>
@@ -195,7 +219,30 @@ const Student = () => {
       </tbody>
                     </Table>
                     
-                    
+                    <div className="pagination">
+                        <MdKeyboardArrowLeft/>
+
+                        <div className="pageItem1">
+                            <p>1</p>
+                        </div>
+                        <div className="pageItem">
+                            <p>2</p>
+                        </div>
+                        <div className="pageItem">
+                            <p>3</p>
+                        </div>
+                        <MdKeyboardArrowRight/>
+                    </div>
+
+                    <div className="download">
+                        <span>
+                            
+                            Download Excel
+                            <HiDownload  style ={{marginLeft:'5px'}} />
+                       
+                        </span>
+                        
+                    </div>
 
 
 

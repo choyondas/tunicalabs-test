@@ -125,6 +125,63 @@ tbody tr:nth-child(odd){
     
 }
 table{
-    border-bottom: 2px solid black;
+    border: 2px solid black;
     
+}
+
+
+.pagination  p{
+    background-color:#d5d5d5;
+    width:20px;
+    height:20px;
+    text-align:center;
+    color:black;
+    font-size:14px;
+
+}
+.pagination .pageItem1 p{
+    background-color:#901e1e;
+    width:20px;
+    height:20px;
+    text-align:center;
+    color:white;
+
+}
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+    
+
+}
+
+.download span{
+    
+    
+    
+    background-color:#901e1e;
+    padding:5px 10px;
+    color:white;
+    font-weight:500;
+    font-size: 14px;
+    
+}
+
+.container .navlogo{
+    display:flex;
+    justify-content: space-between;
+}
+.container .navlogo img{
+    width:30px;
+    border-radius:50%;
+}
+.container .info{
+   display:flex;
+   gap:1rem;
+   align-items:center;
+   justify-content:center;
+   color:white;
+}
+.container .info p{
+   margin-bottom:0px;
 }
