@@ -47,12 +47,12 @@ const SignUp = () => {
             <div className="otherPages">
                  <div className="studentDpage">
                     <NavLink to='student-dashboard'>
-                        <p>click to see the student dashboard page</p>
+                        <p>Go to dashboard page</p>
                 </NavLink>
             </div>
             <div className="studentDpage">
                     ,<NavLink to ='employee'>
-                        <p>click to see the Employee page</p>
+                        <p>Go to Employee page</p>
                     </NavLink>
             </div>
            </div>
