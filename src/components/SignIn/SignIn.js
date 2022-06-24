@@ -1,8 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './SignIn.css';
 
 const SignIn = () => {
+
+ const [loginData, setLoginData] = useState({});
+
+    const handleOnChange = e => {
+        const field = e.target.name;
+        const value = e.target.value;
+        const newLoginData = { ...loginData };
+        newLoginData[field] = value;
+        console.log(newLoginData);
+        setLoginData(newLoginData);
+        
+    }
+
+    const handleLoginSubmit = e => {
+        alert('hello')
+        e.preventDefault();
+    }
+
     return (
          <div className="signPage" >
             <div className="header" >
@@ -15,13 +33,13 @@ const SignIn = () => {
                 </div>
             </div>
             <div className="content">
-                <form action="">
+                <form onSubmit ={handleLoginSubmit}>
                     <div className="contentCard">
                     <h3>Sign In Now</h3>
                         <div className="inputField">
-                            <input type="email" name="" id="" placeholder="Your Email*" />
+                            <input type="email" name="email" id="" placeholder="Your Email*" onChange={handleOnChange} />
                             <br />
-                            <input type="password" name="" id="" placeholder="Your Password*" />
+                            <input type="password" name="password" id="" placeholder="Your Password*" onChange={handleOnChange} />
                            
                     </div>
                         <div className="check">
