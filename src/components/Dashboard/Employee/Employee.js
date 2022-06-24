@@ -12,7 +12,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 import user from '../../../images/user.jpeg'
 
 import './Employee.css';
-import { NavLink } from 'react-router-dom';
+
 
 
 const Employee = () => {
@@ -21,9 +21,9 @@ const Employee = () => {
             <div className="header" >
                 <div className="container">
                     <nav className="navlogo">
-                        <NavLink to='/'>
+                      
                             <h2>TUNICALABS MEDIA</h2>
-                        </NavLink>
+                     
                         <div className="info">
                             <span>
                                 <IoIosNotifications style={{ color:'white', fontSize:'24px'}} />
@@ -155,11 +155,7 @@ const Employee = () => {
             </div>
 
 
-             <div className="studentDpage">
-                    ,<NavLink to ='/signin'>
-                        <p>Go sign in page</p>
-                    </NavLink>
-            </div>
+            
         </div>
     );
 };

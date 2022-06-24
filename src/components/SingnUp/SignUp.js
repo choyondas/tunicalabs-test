@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+
 import './SignUp.css';
 const SignUp = () => {
 
@@ -30,9 +30,9 @@ const SignUp = () => {
             <div className="header" >
                 <div className="container">
                     <nav >
-                        <NavLink to='/'>
+                        
                             <h2>TUNICALABS MEDIA</h2>
-                        </NavLink>
+                        
                     </nav>
                 </div>
             </div>
@@ -63,27 +63,16 @@ const SignUp = () => {
                     
                     <input className='btn-submit' type="submit" value="Sign Up" />
 
-                        <NavLink to ='signin'>
+                      
                             <p>Already have an account? <span>Sign In</span></p>
-                        </NavLink>
+                    
                         </div>
 
 
                 </form>
             </div>
 
-            <div className="otherPages">
-                 <div className="studentDpage">
-                    <NavLink to='student-dashboard'>
-                        <p>Go to dashboard page</p>
-                </NavLink>
-            </div>
-            <div className="studentDpage">
-                    ,<NavLink to ='employee'>
-                        <p>Go to Employee page</p>
-                    </NavLink>
-            </div>
-           </div>
+          
         </div>
     );
 };
